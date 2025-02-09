@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@docsearch/react": "^3.6.1",
-    "@lemonsqueezy/wedges": "workspace:*",
+    "@sahebg/ui": "workspace:*",
     "@shikijs/transformers": "^1.14.1",
     "@tailwindcss/typography": "^0.5.14",
     "@types/hast": "^3.0.4",

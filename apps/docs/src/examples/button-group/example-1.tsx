@@ -10,7 +10,7 @@ import {
   TableColumnsIcon,
   TableRowsIcon,
 } from "@iconicicons/react";
-import { ButtonGroup } from "@lemonsqueezy/wedges";
+import { ButtonGroup } from "@sahebg/ui";
 
 export default function Example() {
   return (

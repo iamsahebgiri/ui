@@ -1,4 +1,4 @@
-import { AvatarGroup, Checkbox } from "@lemonsqueezy/wedges";
+import { AvatarGroup, Checkbox } from "@sahebg/ui";
 
 export default function Example() {
   return (

@@ -1,7 +1,7 @@
 import { type AnchorHTMLAttributes, type ComponentProps, type HTMLAttributes } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Alert, Button, Tooltip } from "@lemonsqueezy/wedges";
+import { Alert, Button, Tooltip } from "@sahebg/ui";
 import { transformerNotationDiff } from "@shikijs/transformers";
 import { fromHtmlIsomorphic } from "hast-util-from-html-isomorphic";
 import { MDXRemote } from "next-mdx-remote/rsc";

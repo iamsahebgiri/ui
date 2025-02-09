@@ -4,7 +4,7 @@ import { useId, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ChevronDownIcon, CloseIcon } from "@iconicicons/react";
-import { Badge, Button } from "@lemonsqueezy/wedges";
+import { Badge, Button } from "@sahebg/ui";
 
 import { type NavItem } from "@/types/nav";
 import { sidebarConfig, type DocsConfig } from "@/config/sidebarConfig";

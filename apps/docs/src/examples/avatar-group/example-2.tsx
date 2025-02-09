@@ -1,4 +1,4 @@
-import { AvatarGroup } from "@lemonsqueezy/wedges";
+import { AvatarGroup } from "@sahebg/ui";
 
 export default function Example() {
   return (

@@ -1,5 +1,5 @@
 import { EmojiHappyIcon, EmojiSadIcon, MoonIcon, StarIcon, SunIcon } from "@iconicicons/react";
-import { Slider } from "@lemonsqueezy/wedges";
+import { Slider } from "@sahebg/ui";
 
 export default function Example() {
   return (

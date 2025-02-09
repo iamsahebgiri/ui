@@ -1,4 +1,4 @@
-import { Alert, Button } from "@lemonsqueezy/wedges";
+import { Alert, Button } from "@sahebg/ui";
 
 export default function Example() {
   return (

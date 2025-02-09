@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { MenuIcon, SearchIcon } from "@iconicicons/react";
-import { Button } from "@lemonsqueezy/wedges";
+import { Button } from "@sahebg/ui";
 
 import { siteConfig } from "@/config/siteConfig";
 import { focusClasses } from "@/lib/a11y";

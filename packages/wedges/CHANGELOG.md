@@ -1,4 +1,4 @@
-# @lemonsqueezy/wedges
+# @sahebg/ui
 
 ## 1.4.0
 

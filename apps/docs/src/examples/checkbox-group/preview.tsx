@@ -1,4 +1,4 @@
-import { CheckboxGroup } from "@lemonsqueezy/wedges";
+import { CheckboxGroup } from "@sahebg/ui";
 
 export default function Example() {
   return (

@@ -1,4 +1,4 @@
-import { Badge, Tabs, Tooltip } from "@lemonsqueezy/wedges";
+import { Badge, Tabs, Tooltip } from "@sahebg/ui";
 
 export default function Example() {
   return (

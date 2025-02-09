@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Button } from "@lemonsqueezy/wedges";
+import { Button } from "@sahebg/ui";
 
 import { type FrontmatterProps } from "@/types/mdx";
 import { type PageProps } from "@/types/page";

@@ -12,7 +12,7 @@ import { forwardRef, useEffect, useState, type HTMLAttributes } from "react";
 import Link from "next/link";
 import { DocSearchModal, useDocSearchKeyboardEvents } from "@docsearch/react";
 import { SearchIcon } from "@iconicicons/react";
-import { Button, Kbd, type KbdKey } from "@lemonsqueezy/wedges";
+import { Button, Kbd, type KbdKey } from "@sahebg/ui";
 import { createPortal } from "react-dom";
 
 import { cn } from "@/lib/utils";

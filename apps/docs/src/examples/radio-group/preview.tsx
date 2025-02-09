@@ -1,4 +1,4 @@
-import { RadioGroup } from "@lemonsqueezy/wedges";
+import { RadioGroup } from "@sahebg/ui";
 
 export default function Example() {
   return (

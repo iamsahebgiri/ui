@@ -13,7 +13,7 @@ type Demo = {
 export const Demos: Record<string, Demo> = {
   "alert/example-1": {
     component: lazy(() => import("@/examples/alert/example-1.tsx")),
-    code: `import { Alert, Button } from "@lemonsqueezy/wedges";
+    code: `import { Alert, Button } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -42,7 +42,7 @@ export function Example() {
   "alert/example-2": {
     component: lazy(() => import("@/examples/alert/example-2.tsx")),
     code: `import { ArrowUpRightIcon, CheckIcon, EmojiSadIcon } from "@iconicicons/react";
-import { Alert, Button } from "@lemonsqueezy/wedges";
+import { Alert, Button } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -103,7 +103,7 @@ export function Example() {
   },
   "alert/preview": {
     component: lazy(() => import("@/examples/alert/preview.tsx")),
-    code: `import { Alert, Button } from "@lemonsqueezy/wedges";
+    code: `import { Alert, Button } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -116,7 +116,7 @@ export function Example() {
   },
   "avatar/example-1": {
     component: lazy(() => import("@/examples/avatar/example-1.tsx")),
-    code: `import { Avatar } from "@lemonsqueezy/wedges";
+    code: `import { Avatar } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -136,7 +136,7 @@ export function Example() {
   },
   "avatar/example-2": {
     component: lazy(() => import("@/examples/avatar/example-2.tsx")),
-    code: `import { Avatar } from "@lemonsqueezy/wedges";
+    code: `import { Avatar } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -215,7 +215,7 @@ export function Example() {
   },
   "avatar/example-3": {
     component: lazy(() => import("@/examples/avatar/example-3.tsx")),
-    code: `import { Avatar, Tooltip } from "@lemonsqueezy/wedges";
+    code: `import { Avatar, Tooltip } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -240,7 +240,7 @@ export function Example() {
   },
   "avatar/preview": {
     component: lazy(() => import("@/examples/avatar/preview.tsx")),
-    code: `import { Avatar } from "@lemonsqueezy/wedges";
+    code: `import { Avatar } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -255,7 +255,7 @@ export function Example() {
   },
   "avatar-group/example-1": {
     component: lazy(() => import("@/examples/avatar-group/example-1.tsx")),
-    code: `import { AvatarGroup } from "@lemonsqueezy/wedges";
+    code: `import { AvatarGroup } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -430,7 +430,7 @@ export function Example() {
   },
   "avatar-group/example-2": {
     component: lazy(() => import("@/examples/avatar-group/example-2.tsx")),
-    code: `import { AvatarGroup } from "@lemonsqueezy/wedges";
+    code: `import { AvatarGroup } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -478,7 +478,7 @@ export function Example() {
   },
   "avatar-group/example-3": {
     component: lazy(() => import("@/examples/avatar-group/example-3.tsx")),
-    code: `import { AvatarGroup } from "@lemonsqueezy/wedges";
+    code: `import { AvatarGroup } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -507,7 +507,7 @@ export function Example() {
   },
   "avatar-group/preview": {
     component: lazy(() => import("@/examples/avatar-group/preview.tsx")),
-    code: `import { AvatarGroup } from "@lemonsqueezy/wedges";
+    code: `import { AvatarGroup } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -556,7 +556,7 @@ import {
   UndoIcon,
   WifiIcon,
 } from "@iconicicons/react";
-import { Avatar, Badge } from "@lemonsqueezy/wedges";
+import { Avatar, Badge } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -771,7 +771,7 @@ const DotIcon = React.forwardRef<SVGSVGElement, React.SVGAttributes<SVGSVGElemen
   "badge/preview": {
     component: lazy(() => import("@/examples/badge/preview.tsx")),
     code: `import { PlusIcon } from "@iconicicons/react";
-import { Badge } from "@lemonsqueezy/wedges";
+import { Badge } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -785,7 +785,7 @@ export function Example() {
   "button/example-1": {
     component: lazy(() => import("@/examples/button/example-1.tsx")),
     code: `import { PlusIcon } from "@iconicicons/react";
-import { Button } from "@lemonsqueezy/wedges";
+import { Button } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -867,7 +867,7 @@ export function Example() {
   "button/example-2": {
     component: lazy(() => import("@/examples/button/example-2.tsx")),
     code: `import { PlusIcon } from "@iconicicons/react";
-import { Button } from "@lemonsqueezy/wedges";
+import { Button } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -967,7 +967,7 @@ export function Example() {
   "button/example-3": {
     component: lazy(() => import("@/examples/button/example-3.tsx")),
     code: `import { PlusIcon } from "@iconicicons/react";
-import { Button } from "@lemonsqueezy/wedges";
+import { Button } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1073,7 +1073,7 @@ export function Example() {
   "button/preview": {
     component: lazy(() => import("@/examples/button/preview.tsx")),
     code: `import { PlusIcon } from "@iconicicons/react";
-import { Button } from "@lemonsqueezy/wedges";
+import { Button } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1098,7 +1098,7 @@ export function Example() {
   TableColumnsIcon,
   TableRowsIcon,
 } from "@iconicicons/react";
-import { ButtonGroup } from "@lemonsqueezy/wedges";
+import { ButtonGroup } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1151,7 +1151,7 @@ export function Example() {
   "button-group/example-2": {
     component: lazy(() => import("@/examples/button-group/example-2.tsx")),
     code: `import { ChevronDownIcon, CopyIcon, DownloadIcon, EditIcon } from "@iconicicons/react";
-import { ButtonGroup, Tooltip } from "@lemonsqueezy/wedges";
+import { ButtonGroup, Tooltip } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1197,7 +1197,7 @@ export function Example() {
   "button-group/preview": {
     component: lazy(() => import("@/examples/button-group/preview.tsx")),
     code: `import { PlusIcon } from "@iconicicons/react";
-import { ButtonGroup } from "@lemonsqueezy/wedges";
+import { ButtonGroup } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1220,7 +1220,7 @@ export function Example() {
   },
   "checkbox/example-1": {
     component: lazy(() => import("@/examples/checkbox/example-1.tsx")),
-    code: `import { Checkbox } from "@lemonsqueezy/wedges";
+    code: `import { Checkbox } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1249,7 +1249,7 @@ export function Example() {
   },
   "checkbox/example-2": {
     component: lazy(() => import("@/examples/checkbox/example-2.tsx")),
-    code: `import { AvatarGroup, Checkbox } from "@lemonsqueezy/wedges";
+    code: `import { AvatarGroup, Checkbox } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1288,7 +1288,7 @@ export function Example() {
   },
   "checkbox/preview": {
     component: lazy(() => import("@/examples/checkbox/preview.tsx")),
-    code: `import { Checkbox } from "@lemonsqueezy/wedges";
+    code: `import { Checkbox } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1307,7 +1307,7 @@ export function Example() {
   },
   "checkbox-group/example-1": {
     component: lazy(() => import("@/examples/checkbox-group/example-1.tsx")),
-    code: `import { CheckboxGroup } from "@lemonsqueezy/wedges";
+    code: `import { CheckboxGroup } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1345,7 +1345,7 @@ export function Example() {
   },
   "checkbox-group/preview": {
     component: lazy(() => import("@/examples/checkbox-group/preview.tsx")),
-    code: `import { CheckboxGroup } from "@lemonsqueezy/wedges";
+    code: `import { CheckboxGroup } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1382,7 +1382,7 @@ export function Example() {
   "dropdown-menu/example-1": {
     component: lazy(() => import("@/examples/dropdown-menu/example-1.tsx")),
     code: `import { DotsHorizontalIcon } from "@iconicicons/react";
-import { Button, DropdownMenu } from "@lemonsqueezy/wedges";
+import { Button, DropdownMenu } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1456,7 +1456,7 @@ import {
   SettingsIcon,
   UserIcon,
 } from "@iconicicons/react";
-import { Avatar, DropdownMenu, Switch } from "@lemonsqueezy/wedges";
+import { Avatar, DropdownMenu, Switch } from "@sahebg/ui";
 
 export function Example() {
   const [darkMode, setDarkMode] = useState(false);
@@ -1549,7 +1549,7 @@ export function Example() {
   "dropdown-menu/preview": {
     component: lazy(() => import("@/examples/dropdown-menu/preview.tsx")),
     code: `import { DownloadIcon, EyeOffIcon, MailIcon, PinIcon, RedoIcon } from "@iconicicons/react";
-import { Button, DropdownMenu } from "@lemonsqueezy/wedges";
+import { Button, DropdownMenu } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1602,7 +1602,7 @@ export function Example() {
   },
   "input/preview": {
     component: lazy(() => import("@/examples/input/preview.tsx")),
-    code: `import { Input } from "@lemonsqueezy/wedges";
+    code: `import { Input } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1621,7 +1621,7 @@ export function Example() {
   },
   "kbd/example-1": {
     component: lazy(() => import("@/examples/kbd/example-1.tsx")),
-    code: `import { Kbd } from "@lemonsqueezy/wedges";
+    code: `import { Kbd } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1648,7 +1648,7 @@ export function Example() {
   },
   "kbd/preview": {
     component: lazy(() => import("@/examples/kbd/preview.tsx")),
-    code: `import { Kbd } from "@lemonsqueezy/wedges";
+    code: `import { Kbd } from "@sahebg/ui";
 
 export function Example() {
   return <Kbd keys={["option", "command"]}>K</Kbd>;
@@ -1657,7 +1657,7 @@ export function Example() {
   },
   "label/example-1": {
     component: lazy(() => import("@/examples/label/example-1.tsx")),
-    code: `import { Label } from "@lemonsqueezy/wedges";
+    code: `import { Label } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1674,7 +1674,7 @@ export function Example() {
   },
   "label/preview": {
     component: lazy(() => import("@/examples/label/preview.tsx")),
-    code: `import { Label } from "@lemonsqueezy/wedges";
+    code: `import { Label } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1687,7 +1687,7 @@ export function Example() {
   },
   "loading/example-1": {
     component: lazy(() => import("@/examples/loading/example-1.tsx")),
-    code: `import { Loading } from "@lemonsqueezy/wedges";
+    code: `import { Loading } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1728,7 +1728,7 @@ export function Example() {
   },
   "loading/example-2": {
     component: lazy(() => import("@/examples/loading/example-2.tsx")),
-    code: `import { Loading } from "@lemonsqueezy/wedges";
+    code: `import { Loading } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1743,7 +1743,7 @@ export function Example() {
   },
   "loading/preview": {
     component: lazy(() => import("@/examples/loading/preview.tsx")),
-    code: `import { Loading } from "@lemonsqueezy/wedges";
+    code: `import { Loading } from "@sahebg/ui";
 
 export function Example() {
   return <Loading type="line" size="md" />;
@@ -1754,7 +1754,7 @@ export function Example() {
     component: lazy(() => import("@/examples/popover/example-1.tsx")),
     code: `import * as React from "react";
 import { ChevronDownIcon, CopyIcon, DownloadIcon } from "@iconicicons/react";
-import { ButtonGroup, CheckboxGroup, Popover } from "@lemonsqueezy/wedges";
+import { ButtonGroup, CheckboxGroup, Popover } from "@sahebg/ui";
 
 export function Example() {
   const wrapper = React.useRef(null);
@@ -1804,7 +1804,7 @@ export function Example() {
   "popover/preview": {
     component: lazy(() => import("@/examples/popover/preview.tsx")),
     code: `import { ChevronDownIcon } from "@iconicicons/react";
-import { Button, CheckboxGroup, Popover } from "@lemonsqueezy/wedges";
+import { Button, CheckboxGroup, Popover } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1831,7 +1831,7 @@ export function Example() {
   "progress-bar/example-1": {
     component: lazy(() => import("@/examples/progress-bar/example-1.tsx")),
     code: `import { SpinnerIcon } from "@iconicicons/react";
-import { ProgressBar } from "@lemonsqueezy/wedges";
+import { ProgressBar } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1863,7 +1863,7 @@ export function Example() {
   "progress-bar/example-2": {
     component: lazy(() => import("@/examples/progress-bar/example-2.tsx")),
     code: `import { CheckCircleIcon, CloseCircleIcon, CloseIcon, SpinnerIcon } from "@iconicicons/react";
-import { ProgressBar } from "@lemonsqueezy/wedges";
+import { ProgressBar } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -1964,7 +1964,7 @@ export function Example() {
     component: lazy(() => import("@/examples/progress-bar/preview.tsx")),
     code: `import * as React from "react";
 import { SpinnerIcon } from "@iconicicons/react";
-import { ProgressBar } from "@lemonsqueezy/wedges";
+import { ProgressBar } from "@sahebg/ui";
 
 export function Example() {
   const [value, setValue] = React.useState(0);
@@ -1994,7 +1994,7 @@ export function Example() {
   },
   "progress-circle/example-1": {
     component: lazy(() => import("@/examples/progress-circle/example-1.tsx")),
-    code: `import { ProgressCircle } from "@lemonsqueezy/wedges";
+    code: `import { ProgressCircle } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -2070,7 +2070,7 @@ export function Example() {
   "progress-circle/preview": {
     component: lazy(() => import("@/examples/progress-circle/preview.tsx")),
     code: `import * as React from "react";
-import { ProgressCircle } from "@lemonsqueezy/wedges";
+import { ProgressCircle } from "@sahebg/ui";
 
 export function Example() {
   const [value, setValue] = React.useState(0);
@@ -2093,7 +2093,7 @@ export function Example() {
   },
   "radio-group/example-1": {
     component: lazy(() => import("@/examples/radio-group/example-1.tsx")),
-    code: `import { RadioGroup } from "@lemonsqueezy/wedges";
+    code: `import { RadioGroup } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -2140,7 +2140,7 @@ export function Example() {
   },
   "radio-group/preview": {
     component: lazy(() => import("@/examples/radio-group/preview.tsx")),
-    code: `import { RadioGroup } from "@lemonsqueezy/wedges";
+    code: `import { RadioGroup } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -2175,7 +2175,7 @@ import {
   SelectPortal,
   SelectTrigger,
   SelectValue,
-} from "@lemonsqueezy/wedges";
+} from "@sahebg/ui";
 
 export function Example() {
   const wrapper = React.useRef<HTMLDivElement>(null);
@@ -2252,7 +2252,7 @@ import {
   SelectPortal,
   SelectSeparator,
   SelectTrigger,
-} from "@lemonsqueezy/wedges";
+} from "@sahebg/ui";
 
 export function Example() {
   const wrapper = React.useRef<HTMLDivElement>(null);
@@ -2314,7 +2314,7 @@ import {
   SelectPortal,
   SelectTrigger,
   SelectValue,
-} from "@lemonsqueezy/wedges";
+} from "@sahebg/ui";
 
 export function Example() {
   const wrapper = React.useRef<HTMLDivElement>(null);
@@ -2344,7 +2344,7 @@ export function Example() {
   },
   "slider/example-1": {
     component: lazy(() => import("@/examples/slider/example-1.tsx")),
-    code: `import { Slider } from "@lemonsqueezy/wedges";
+    code: `import { Slider } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -2359,7 +2359,7 @@ export function Example() {
   },
   "slider/example-2": {
     component: lazy(() => import("@/examples/slider/example-2.tsx")),
-    code: `import { Slider } from "@lemonsqueezy/wedges";
+    code: `import { Slider } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -2384,7 +2384,7 @@ export function Example() {
     code: `"use client";
 
 import { useState } from "react";
-import { Slider } from "@lemonsqueezy/wedges";
+import { Slider } from "@sahebg/ui";
 
 export function Example() {
   const [value, setValue] = useState([2500, 5000]);
@@ -2424,7 +2424,7 @@ export function Example() {
 
 import { useState } from "react";
 import { MinusIcon, PlusIcon } from "@iconicicons/react";
-import { Button, Slider } from "@lemonsqueezy/wedges";
+import { Button, Slider } from "@sahebg/ui";
 
 export function Example() {
   const [value, setValue] = useState<number[]>([24]);
@@ -2488,7 +2488,7 @@ export function Example() {
   "slider/example-5": {
     component: lazy(() => import("@/examples/slider/example-5.tsx")),
     code: `import { EmojiHappyIcon, EmojiSadIcon, MoonIcon, StarIcon, SunIcon } from "@iconicicons/react";
-import { Slider } from "@lemonsqueezy/wedges";
+import { Slider } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -2557,7 +2557,7 @@ export function Example() {
   "slider/preview": {
     component: lazy(() => import("@/examples/slider/preview.tsx")),
     code: `import { MinusIcon, PlusIcon } from "@iconicicons/react";
-import { Slider } from "@lemonsqueezy/wedges";
+import { Slider } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -2578,7 +2578,7 @@ export function Example() {
   },
   "switch/example-1": {
     component: lazy(() => import("@/examples/switch/example-1.tsx")),
-    code: `import { Switch } from "@lemonsqueezy/wedges";
+    code: `import { Switch } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -2618,7 +2618,7 @@ export function Example() {
   },
   "switch/preview": {
     component: lazy(() => import("@/examples/switch/preview.tsx")),
-    code: `import { Switch } from "@lemonsqueezy/wedges";
+    code: `import { Switch } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -2637,7 +2637,7 @@ export function Example() {
   },
   "switch-group/example-1": {
     component: lazy(() => import("@/examples/switch-group/example-1.tsx")),
-    code: `import { SwitchGroup } from "@lemonsqueezy/wedges";
+    code: `import { SwitchGroup } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -2686,7 +2686,7 @@ export function Example() {
   },
   "switch-group/preview": {
     component: lazy(() => import("@/examples/switch-group/preview.tsx")),
-    code: `import { SwitchGroup } from "@lemonsqueezy/wedges";
+    code: `import { SwitchGroup } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -2711,7 +2711,7 @@ export function Example() {
   "tabs/example-1": {
     component: lazy(() => import("@/examples/tabs/example-1.tsx")),
     code: `import { BoxIcon, ClockIcon, SpinnerIcon } from "@iconicicons/react";
-import { Badge, Tabs } from "@lemonsqueezy/wedges";
+import { Badge, Tabs } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -2886,7 +2886,7 @@ export function Example() {
   },
   "tabs/example-2": {
     component: lazy(() => import("@/examples/tabs/example-2.tsx")),
-    code: `import { Badge, Tabs, Tooltip } from "@lemonsqueezy/wedges";
+    code: `import { Badge, Tabs, Tooltip } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -2922,7 +2922,7 @@ export function Example() {
     component: lazy(() => import("@/examples/tabs/example-3.tsx")),
     code: `import * as React from "react";
 import { ArrowDownRightIcon, ArrowUpRightIcon } from "@iconicicons/react";
-import { Badge, Tabs } from "@lemonsqueezy/wedges";
+import { Badge, Tabs } from "@sahebg/ui";
 
 function IconUS() {
   return (
@@ -3151,7 +3151,7 @@ export function Example() {
   "tabs/preview": {
     component: lazy(() => import("@/examples/tabs/preview.tsx")),
     code: `import { BookIcon, LockIcon, VideoIcon } from "@iconicicons/react";
-import { Tabs } from "@lemonsqueezy/wedges";
+import { Tabs } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -3184,7 +3184,7 @@ export function Example() {
     component: lazy(() => import("@/examples/tag/example-1.tsx")),
     code: `import * as React from "react";
 import { BookIcon, FileIcon, FolderIcon, TrashIcon } from "@iconicicons/react";
-import { Avatar, Tag } from "@lemonsqueezy/wedges";
+import { Avatar, Tag } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -3454,7 +3454,7 @@ const DotIcon = React.forwardRef<SVGSVGElement, React.SVGAttributes<SVGSVGElemen
   },
   "tag/preview": {
     component: lazy(() => import("@/examples/tag/preview.tsx")),
-    code: `import { Tag } from "@lemonsqueezy/wedges";
+    code: `import { Tag } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -3474,7 +3474,7 @@ export function Example() {
   },
   "textarea/example-1": {
     component: lazy(() => import("@/examples/textarea/example-1.tsx")),
-    code: `import { Textarea } from "@lemonsqueezy/wedges";
+    code: `import { Textarea } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -3496,7 +3496,7 @@ export function Example() {
   },
   "textarea/example-2": {
     component: lazy(() => import("@/examples/textarea/example-2.tsx")),
-    code: `import { Textarea } from "@lemonsqueezy/wedges";
+    code: `import { Textarea } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -3523,7 +3523,7 @@ export function Example() {
   },
   "textarea/preview": {
     component: lazy(() => import("@/examples/textarea/preview.tsx")),
-    code: `import { Textarea } from "@lemonsqueezy/wedges";
+    code: `import { Textarea } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -3536,7 +3536,7 @@ export function Example() {
   },
   "theming/custom-themes": {
     component: lazy(() => import("@/examples/theming/custom-themes.tsx")),
-    code: `import { Button } from "@lemonsqueezy/wedges";
+    code: `import { Button } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -3551,7 +3551,7 @@ export function Example() {
     component: lazy(() => import("@/examples/theming/dark-mode.tsx")),
     code: `import * as React from "react";
 import { MoonIcon, SunIcon } from "@iconicicons/react";
-import { Button, Switch, Toggle, ToggleGroup, Tooltip } from "@lemonsqueezy/wedges";
+import { Button, Switch, Toggle, ToggleGroup, Tooltip } from "@sahebg/ui";
 
 export function Example() {
   /** In your app, you can use a hook, such as \`useTheme\` or a similar way to access
@@ -3597,7 +3597,7 @@ export function Example() {
   "toggle/preview": {
     component: lazy(() => import("@/examples/toggle/preview.tsx")),
     code: `import { CropIcon } from "@iconicicons/react";
-import { Toggle } from "@lemonsqueezy/wedges";
+import { Toggle } from "@sahebg/ui";
 
 export function Example() {
   return <Toggle before={<CropIcon />} />;
@@ -3614,7 +3614,7 @@ export function Example() {
   TableColumnsIcon,
   TableRowsIcon,
 } from "@iconicicons/react";
-import { ToggleGroup } from "@lemonsqueezy/wedges";
+import { ToggleGroup } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -3661,7 +3661,7 @@ export function Example() {
   },
   "toggle-group/example-2": {
     component: lazy(() => import("@/examples/toggle-group/example-2.tsx")),
-    code: `import { ToggleGroup } from "@lemonsqueezy/wedges";
+    code: `import { ToggleGroup } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -3687,7 +3687,7 @@ export function Example() {
   "toggle-group/preview": {
     component: lazy(() => import("@/examples/toggle-group/preview.tsx")),
     code: `import { GridIcon, GridMasonryIcon, TableColumnsIcon, TableRowsIcon } from "@iconicicons/react";
-import { ToggleGroup } from "@lemonsqueezy/wedges";
+import { ToggleGroup } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -3703,7 +3703,7 @@ export function Example() {
   },
   "tooltip/example-1": {
     component: lazy(() => import("@/examples/tooltip/example-1.tsx")),
-    code: `import { Tooltip } from "@lemonsqueezy/wedges";
+    code: `import { Tooltip } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -3819,7 +3819,7 @@ export function Example() {
   "tooltip/example-2": {
     component: lazy(() => import("@/examples/tooltip/example-2.tsx")),
     code: `import * as React from "react";
-import { Tooltip } from "@lemonsqueezy/wedges";
+import { Tooltip } from "@sahebg/ui";
 
 export function Example() {
   return (
@@ -3867,7 +3867,7 @@ export function Example() {
   },
   "tooltip/preview": {
     component: lazy(() => import("@/examples/tooltip/preview.tsx")),
-    code: `import { Tooltip } from "@lemonsqueezy/wedges";
+    code: `import { Tooltip } from "@sahebg/ui";
 
 export function Example() {
   return (

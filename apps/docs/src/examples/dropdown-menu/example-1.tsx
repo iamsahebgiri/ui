@@ -1,5 +1,5 @@
 import { DotsHorizontalIcon } from "@iconicicons/react";
-import { Button, DropdownMenu } from "@lemonsqueezy/wedges";
+import { Button, DropdownMenu } from "@sahebg/ui";
 
 export default function Example() {
   return (

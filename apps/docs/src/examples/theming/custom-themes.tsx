@@ -1,4 +1,4 @@
-import { Button } from "@lemonsqueezy/wedges";
+import { Button } from "@sahebg/ui";
 
 export default function Example() {
   return (

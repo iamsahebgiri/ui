@@ -6,8 +6,8 @@
 
 # Wedges
 
-[![](https://img.shields.io/npm/v/@lemonsqueezy/wedges?style=plastic)](https://www.npmjs.com/package/@lemonsqueezy/wedges)
-[![](https://img.shields.io/npm/dw/@lemonsqueezy/wedges?style=plastic)](https://www.npmjs.com/package/@lemonsqueezy/wedges)
+[![](https://img.shields.io/npm/v/@sahebg/ui?style=plastic)](https://www.npmjs.com/package/@sahebg/ui)
+[![](https://img.shields.io/npm/dw/@sahebg/ui?style=plastic)](https://www.npmjs.com/package/@sahebg/ui)
 
 Wedges is an ever-expanding, open-source React UI library built with the Wedges Design System, Radix primitives, and Tailwind CSS.
 

@@ -8,7 +8,7 @@ import {
   SelectPortal,
   SelectTrigger,
   SelectValue,
-} from "@lemonsqueezy/wedges";
+} from "@sahebg/ui";
 
 export default function Example() {
   const wrapper = React.useRef<HTMLDivElement>(null);

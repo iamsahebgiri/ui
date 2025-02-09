@@ -1,4 +1,4 @@
-import { Tag } from "@lemonsqueezy/wedges";
+import { Tag } from "@sahebg/ui";
 
 export default function Example() {
   return (

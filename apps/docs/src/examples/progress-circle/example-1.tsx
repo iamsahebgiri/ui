@@ -1,4 +1,4 @@
-import { ProgressCircle } from "@lemonsqueezy/wedges";
+import { ProgressCircle } from "@sahebg/ui";
 
 export default function Example() {
   return (

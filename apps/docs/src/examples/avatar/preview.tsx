@@ -1,4 +1,4 @@
-import { Avatar } from "@lemonsqueezy/wedges";
+import { Avatar } from "@sahebg/ui";
 
 export default function Example() {
   return (

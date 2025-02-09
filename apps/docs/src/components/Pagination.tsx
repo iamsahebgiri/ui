@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ChevronLeftIcon, ChevronRightIcon } from "@iconicicons/react";
-import { Button } from "@lemonsqueezy/wedges";
+import { Button } from "@sahebg/ui";
 
 import { sidebarConfig, type DocsConfig } from "@/config/sidebarConfig";
 

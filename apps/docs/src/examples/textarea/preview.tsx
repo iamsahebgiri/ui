@@ -1,4 +1,4 @@
-import { Textarea } from "@lemonsqueezy/wedges";
+import { Textarea } from "@sahebg/ui";
 
 export default function Example() {
   return (

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Slider } from "@lemonsqueezy/wedges";
+import { Slider } from "@sahebg/ui";
 
 export default function Example() {
   const [value, setValue] = useState([2500, 5000]);

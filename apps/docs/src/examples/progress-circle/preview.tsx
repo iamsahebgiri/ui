@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ProgressCircle } from "@lemonsqueezy/wedges";
+import { ProgressCircle } from "@sahebg/ui";
 
 export default function Example() {
   const [value, setValue] = React.useState(0);

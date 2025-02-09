@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Tooltip } from "@lemonsqueezy/wedges";
+import { Tooltip } from "@sahebg/ui";
 
 import { createLabelDocs, type LabelDocsParams } from "@/lib/docUtils";
 import { cn } from "@/lib/utils";

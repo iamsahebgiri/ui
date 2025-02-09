@@ -1,6 +1,6 @@
 "use client";
 
-import { Tabs as WedgesTabs } from "@lemonsqueezy/wedges";
+import { Tabs as WedgesTabs } from "@sahebg/ui";
 
 const TabsRoot = WedgesTabs.Root;
 const TabsContent = WedgesTabs.Content;

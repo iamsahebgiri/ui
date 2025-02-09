@@ -1,5 +1,5 @@
 import { BoxIcon, ClockIcon, SpinnerIcon } from "@iconicicons/react";
-import { Badge, Tabs } from "@lemonsqueezy/wedges";
+import { Badge, Tabs } from "@sahebg/ui";
 
 export default function Example() {
   return (

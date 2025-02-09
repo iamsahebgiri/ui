@@ -1,5 +1,5 @@
 import { ArrowUpRightIcon, CheckIcon, EmojiSadIcon } from "@iconicicons/react";
-import { Alert, Button } from "@lemonsqueezy/wedges";
+import { Alert, Button } from "@sahebg/ui";
 
 export default function Example() {
   return (

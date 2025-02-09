@@ -1,7 +1,7 @@
 "use client";
 
 import { useLayoutEffect, useRef, useState, type ReactNode, type SVGAttributes } from "react";
-import { Button } from "@lemonsqueezy/wedges";
+import { Button } from "@sahebg/ui";
 
 export function PreviewCode({ children }: { children: ReactNode }) {
   const [isExpanded, setIsExpanded] = useState(false);

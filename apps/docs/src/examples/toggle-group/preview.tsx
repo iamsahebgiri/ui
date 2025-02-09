@@ -1,5 +1,5 @@
 import { GridIcon, GridMasonryIcon, TableColumnsIcon, TableRowsIcon } from "@iconicicons/react";
-import { ToggleGroup } from "@lemonsqueezy/wedges";
+import { ToggleGroup } from "@sahebg/ui";
 
 export default function Example() {
   return (

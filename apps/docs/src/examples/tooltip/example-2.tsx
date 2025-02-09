@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Tooltip } from "@lemonsqueezy/wedges";
+import { Tooltip } from "@sahebg/ui";
 
 export default function Example() {
   return (

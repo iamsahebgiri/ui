@@ -94,7 +94,7 @@ After that, run the following command to start the development server:
 That's all. You can now start using the components in your project.
 
 ```tsx {1,4} showLineNumbers
-import { Alert } from "@lemonsqueezy/wedges";
+import { Alert } from "@sahebg/ui";
 
 export default function Example() {
 return <Alert>You're awesome!</Alert>;
@@ -117,19 +117,19 @@ return <Alert>You're awesome!</Alert>;
 
     <TabsContent value="pnpm">
         ```bash
-        pnpm add @lemonsqueezy/wedges
+        pnpm add @sahebg/ui
         ```
     </TabsContent>
 
     <TabsContent value="npm">
         ```bash
-        npm i @lemonsqueezy/wedges
+        npm i @sahebg/ui
         ```
     </TabsContent>
 
     <TabsContent value="yarn">
         ```bash
-        yarn add @lemonsqueezy/wedges
+        yarn add @sahebg/ui
         ```
     </TabsContent>
 </Tabs>
@@ -142,12 +142,12 @@ Once Tailwind CSS is installed, update your `tailwind.config` file to add the ne
 
 ```tsx {2,7,10,11} title="tailwind.config.ts" showLineNumbers
 import type { Config } from "tailwindcss";
-import { wedgesTW } from "@lemonsqueezy/wedges";
+import { wedgesTW } from "@sahebg/ui";
 
 const config: Config = {
   content: [
     // ...
-    "node_modules/@lemonsqueezy/wedges/dist/**/*.{js,ts,jsx,tsx}",
+    "node_modules/@sahebg/ui/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {},
   darkMode: "class",
@@ -174,7 +174,7 @@ After updating, run `pnpm install` again to reconfigure your dependencies correc
 You can now start using the components in your application.
 
 ```tsx {1,4} showLineNumbers
-import { Alert } from "@lemonsqueezy/wedges";
+import { Alert } from "@sahebg/ui";
 
 export default function Example() {
   return <Alert>You're awesome!</Alert>;

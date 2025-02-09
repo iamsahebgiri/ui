@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Button, Tooltip } from "@lemonsqueezy/wedges";
+import { Button, Tooltip } from "@sahebg/ui";
 
 import { cn } from "@/lib/utils";
 

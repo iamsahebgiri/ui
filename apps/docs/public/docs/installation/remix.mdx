@@ -30,7 +30,7 @@ More information can be found in the <a href="https://remix.run/docs/en/main/sta
     <TabsContent value="pnpm">
 
 ```bash
-pnpm add @lemonsqueezy/wedges
+pnpm add @sahebg/ui
 ```
 
     </TabsContent>
@@ -38,7 +38,7 @@ pnpm add @lemonsqueezy/wedges
     <TabsContent value="npm">
 
 ```bash
-npm i @lemonsqueezy/wedges
+npm i @sahebg/ui
 ```
 
     </TabsContent>
@@ -46,7 +46,7 @@ npm i @lemonsqueezy/wedges
     <TabsContent value="yarn">
 
 ```bash
-yarn add @lemonsqueezy/wedges
+yarn add @sahebg/ui
 ```
 
     </TabsContent>
@@ -122,13 +122,13 @@ Then run the init command to generate `tailwind.config.ts` file:
 Update your `tailwind.config.ts` file to add the necessary configuration for Wedges:
 
 ```tsx {2,7,12-13} title="tailwind.config.js" showLineNumbers
-import { wedgesTW } from "@lemonsqueezy/wedges";
+import { wedgesTW } from "@sahebg/ui";
 import type { Config } from "tailwindcss";
 
 export default {
   content: [
     "./app/**/*.{js,jsx,ts,tsx}",
-    "node_modules/@lemonsqueezy/wedges/dist/**/*.{js,ts,jsx,tsx}",
+    "node_modules/@sahebg/ui/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
@@ -192,7 +192,7 @@ export const links: LinksFunction = () => [{ rel: "stylesheet", href: stylesheet
 You can now start using the components in your application.
 
 ```tsx {1,4} showLineNumbers
-import { Alert } from "@lemonsqueezy/wedges";
+import { Alert } from "@sahebg/ui";
 
 export default function Index() {
   return <Alert>You're awesome!</Alert>;

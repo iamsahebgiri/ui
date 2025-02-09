@@ -1,4 +1,4 @@
-import { Label } from "@lemonsqueezy/wedges";
+import { Label } from "@sahebg/ui";
 
 export default function Example() {
   return (

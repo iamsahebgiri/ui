@@ -56,19 +56,19 @@ Ensure to replace `my-vite-app` with the actual name you chose for your project 
 
     <TabsContent value="pnpm">
         ```bash
-        pnpm add @lemonsqueezy/wedges
+        pnpm add @sahebg/ui
         ```
     </TabsContent>
 
     <TabsContent value="npm">
         ```bash
-        npm i @lemonsqueezy/wedges
+        npm i @sahebg/ui
         ```
     </TabsContent>
 
     <TabsContent value="yarn">
         ```bash
-        yarn add @lemonsqueezy/wedges
+        yarn add @sahebg/ui
         ```
     </TabsContent>
 </Tabs>
@@ -140,13 +140,13 @@ Then generate your `tailwind.config.js` and `postcss.config.js` files by running
 Once Tailwind CSS is installed, update `tailwind.config.js` file to add the necessary configuration for Wedges:
 
 ```js {1,7,12,13} title="tailwind.config.js" showLineNumbers
-const { wedgesTW } = require("@lemonsqueezy/wedges");
+const { wedgesTW } = require("@sahebg/ui");
 
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./src/**/*.{js,ts,jsx,tsx}",
-    "node_modules/@lemonsqueezy/wedges/dist/**/*.{js,ts,jsx,tsx}",
+    "node_modules/@sahebg/ui/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
@@ -173,7 +173,7 @@ After updating, run `pnpm install` again to reconfigure your dependencies correc
 You can now start using the components in your application.
 
 ```tsx {1,4} showLineNumbers
-import { Alert } from "@lemonsqueezy/wedges";
+import { Alert } from "@sahebg/ui";
 
 export default function Example() {
   return <Alert>You're awesome!</Alert>;

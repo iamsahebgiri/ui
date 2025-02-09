@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { MinusIcon, PlusIcon } from "@iconicicons/react";
-import { Button, Slider } from "@lemonsqueezy/wedges";
+import { Button, Slider } from "@sahebg/ui";
 
 export default function Example() {
   const [value, setValue] = useState<number[]>([24]);

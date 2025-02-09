@@ -1,4 +1,4 @@
-import { SwitchGroup } from "@lemonsqueezy/wedges";
+import { SwitchGroup } from "@sahebg/ui";
 
 export default function Example() {
   return (

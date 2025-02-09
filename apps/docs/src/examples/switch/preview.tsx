@@ -1,4 +1,4 @@
-import { Switch } from "@lemonsqueezy/wedges";
+import { Switch } from "@sahebg/ui";
 
 export default function Example() {
   return (

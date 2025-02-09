@@ -1,4 +1,4 @@
-import { Button } from "@lemonsqueezy/wedges";
+import { Button } from "@sahebg/ui";
 
 import { siteConfig } from "@/config/siteConfig";
 import { focusClasses } from "@/lib/a11y";

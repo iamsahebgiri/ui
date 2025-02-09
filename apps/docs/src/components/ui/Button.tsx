@@ -1,6 +1,6 @@
 import { forwardRef, Fragment, type ComponentPropsWithoutRef, type ElementRef } from "react";
 import Link from "next/link";
-import { Button as WedgesButton } from "@lemonsqueezy/wedges";
+import { Button as WedgesButton } from "@sahebg/ui";
 
 import { cn } from "@/lib/utils";
 

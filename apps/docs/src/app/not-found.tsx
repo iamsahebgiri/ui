@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { HomeIcon } from "@iconicicons/react";
-import { Button } from "@lemonsqueezy/wedges";
+import { Button } from "@sahebg/ui";
 
 import { LemonSqueezyLogomark } from "@/components/icons/lemonsqueezy";
 import { SearchButton } from "@/components/Search";

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { SpinnerIcon } from "@iconicicons/react";
-import { ProgressBar } from "@lemonsqueezy/wedges";
+import { ProgressBar } from "@sahebg/ui";
 
 export default function Example() {
   const [value, setValue] = React.useState(0);

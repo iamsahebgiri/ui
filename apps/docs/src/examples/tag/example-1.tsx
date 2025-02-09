@@ -1,6 +1,6 @@
 import * as React from "react";
 import { BookIcon, FileIcon, FolderIcon, TrashIcon } from "@iconicicons/react";
-import { Avatar, Tag } from "@lemonsqueezy/wedges";
+import { Avatar, Tag } from "@sahebg/ui";
 
 export default function Example() {
   return (

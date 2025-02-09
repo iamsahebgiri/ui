@@ -1,4 +1,4 @@
-import { Avatar, Tooltip } from "@lemonsqueezy/wedges";
+import { Avatar, Tooltip } from "@sahebg/ui";
 
 export default function Example() {
   return (

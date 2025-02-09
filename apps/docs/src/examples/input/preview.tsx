@@ -1,4 +1,4 @@
-import { Input } from "@lemonsqueezy/wedges";
+import { Input } from "@sahebg/ui";
 
 export default function Example() {
   return (

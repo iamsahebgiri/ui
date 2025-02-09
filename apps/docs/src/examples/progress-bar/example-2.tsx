@@ -1,5 +1,5 @@
 import { CheckCircleIcon, CloseCircleIcon, CloseIcon, SpinnerIcon } from "@iconicicons/react";
-import { ProgressBar } from "@lemonsqueezy/wedges";
+import { ProgressBar } from "@sahebg/ui";
 
 export default function Example() {
   return (
